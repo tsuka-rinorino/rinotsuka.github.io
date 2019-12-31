@@ -1,16 +1,16 @@
 <template>
   <div id="app" class="app">
     <v-hero/>
+    <v-post/>
   </div>
 </template>
 
+
+
 <script>
-export default {
-  components: {
-    'v-hero': require('@/components/hero/index').default,
-  },
-}
 </script>
+
+
 
 <style lang="scss">
 @import "@/assets/scss/app";
