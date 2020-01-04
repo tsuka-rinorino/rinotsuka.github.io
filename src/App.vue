@@ -1,6 +1,7 @@
 <template>
   <div id="app" class="app">
     <v-hero/>
+    <v-profile/>
     <v-post/>
   </div>
 </template>

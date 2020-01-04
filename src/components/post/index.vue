@@ -1,8 +1,8 @@
 <template>
-  <div class="post">
+  <section class="post">
     <v-heading>
       投稿記事
-      <template v-slot:sub>
+      <template #sub>
         とうこうきじ
       </template>
     </v-heading>
@@ -11,7 +11,7 @@
         v-for="post in postsLimit"
         :key="post.id"
         class="post__item">
-        <a class="post__link" :href="post.url">
+        <a class="post__link" :href="post.url" target="_blank" rel="noopener">
           <img class="post__img" src="/img/post/qiita-ogp.png" alt="">
         </a>
         <div class="post__inner">
@@ -33,7 +33,7 @@
         </div>
       </article>
     </div>
-  </div>
+  </section>
 </template>
 
 
