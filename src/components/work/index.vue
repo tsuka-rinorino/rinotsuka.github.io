@@ -60,19 +60,21 @@
 
   &__item {
     position: relative;
-    width: 41rem;
+    width: 45rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10rem;
+    margin-bottom: 14rem;
     &--left {
-      padding-left: 14rem;
+      transform: translateX(-1rem);
+      padding-left: 16rem;
       #{$e}__img {
         left: 11rem;
         transform: translate(-100%, -50%);
       }
     }
     &--right {
-      padding-right: 14rem;
+      transform: translateX(-1rem);
+      padding-right: 16rem;
       #{$e}__img {
         right: 8rem;
         transform: translate(100%, -50%);
