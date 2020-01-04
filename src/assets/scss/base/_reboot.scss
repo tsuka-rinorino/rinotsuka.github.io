@@ -24,10 +24,17 @@
   font-weight: bold;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
 }
 
 body {
+  overflow-x: hidden;
   background: $body-bg;
   font-family: $font-family-base;
   font-size: $font-size-base;
@@ -45,4 +52,9 @@ a {
     color: $link-hover-color;
     text-decoration: underline;
   }
+}
+
+p {
+  text-indent: 1em;
+  margin: 0 2rem;
 }

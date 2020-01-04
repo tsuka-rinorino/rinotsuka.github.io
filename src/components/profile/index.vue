@@ -124,11 +124,6 @@ export default {
     letter-spacing: 0.1875em;
     text-align: justify;
     height: 21rem;
-
-    p {
-      margin-left: 2.25rem;
-      margin-right: 2.25rem;
-    }
   }
 }
 </style>
