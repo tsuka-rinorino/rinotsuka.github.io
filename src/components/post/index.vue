@@ -12,7 +12,7 @@
         :key="post.id"
         class="post__item">
         <a class="post__link" :href="post.url" target="_blank" rel="noopener">
-          <img class="post__img" src="/img/post/qiita-ogp.png" alt="">
+          <img class="post__img" src="/img/post/qiita-logo.png" alt="">
         </a>
         <div class="post__inner">
           <header class="post__header">
@@ -109,8 +109,8 @@ export default {
     justify-content: space-between;
     flex-direction: row-reverse;
     border-top: 1px dashed mix(#fff, $main-color, 25%);
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     &:last-of-type {
       border-bottom: 1px dashed mix(#fff, $main-color, 25%);
     }

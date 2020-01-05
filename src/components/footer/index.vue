@@ -27,8 +27,8 @@
     text-align: center;
     font-size: 0.75rem;
     color: mix(#fff, #212830, 65%);
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     .fa-heart {
       color: #f783ac;
       margin-left: 0.25rem;
@@ -41,7 +41,7 @@
   }
 
   .sns {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 }
 </style>

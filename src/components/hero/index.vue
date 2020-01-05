@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    hero
+    <img class="hero__logo" src="/img/common/logo.svg" alt="">
   </div>
 </template>
 
@@ -13,5 +13,12 @@
 
 <style lang="scss">
 .hero {
+
+  &__logo {
+    display: block;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 </style>

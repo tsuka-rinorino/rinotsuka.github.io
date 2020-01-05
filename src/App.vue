@@ -21,7 +21,10 @@
 .app {
   height: 100%;
 
-  .hero,
+  .hero {
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+  }
   .profile,
   .work,
   .post {

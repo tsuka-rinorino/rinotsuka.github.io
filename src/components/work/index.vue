@@ -68,12 +68,12 @@
       transform: translateX(-1rem);
       padding-left: 16rem;
       #{$e}__img {
-        left: 11rem;
+        left: 15rem;
         transform: translate(-100%, -50%);
       }
     }
     &--right {
-      transform: translateX(-1rem);
+      transform: translateX(-4rem);
       padding-right: 16rem;
       #{$e}__img {
         right: 8rem;
