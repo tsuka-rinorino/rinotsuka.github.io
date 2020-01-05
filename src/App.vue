@@ -4,6 +4,7 @@
     <v-profile/>
     <v-work/>
     <v-post/>
+    <v-footer/>
   </div>
 </template>
 
