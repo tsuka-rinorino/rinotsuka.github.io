@@ -109,8 +109,8 @@ export default {
     justify-content: space-between;
     flex-direction: row-reverse;
     border-top: 1px dashed mix(#fff, $main-color, 25%);
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
     &:last-of-type {
       border-bottom: 1px dashed mix(#fff, $main-color, 25%);
     }
