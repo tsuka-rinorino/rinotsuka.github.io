@@ -18,7 +18,7 @@
 .footer {
   $e: &;
   background-color: #000;
-  background: url(/img/footer/background.png) 44% top no-repeat;
+  background: #2f4459 url(/img/footer/background.png) 44% top no-repeat;
   position: relative;
   padding-top: 106px;
 

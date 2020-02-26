@@ -1,6 +1,8 @@
 <template>
   <div class="hero">
-    <img class="hero__logo" src="/img/common/logo.svg" alt="">
+    <v-wrap>
+      <img class="hero__logo" src="/img/common/logo.jpg" alt="">
+    </v-wrap>
   </div>
 </template>
 
@@ -16,9 +18,15 @@
 
   &__logo {
     display: block;
-    width: 20rem;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    top: -56px;
+    right: -128px;
+    width: 784px;
+    height: 784px;
+  }
+
+  .wrap {
+    height: #{784px - 56px};
   }
 }
 </style>

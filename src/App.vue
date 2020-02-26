@@ -2,8 +2,8 @@
   <div id="app" class="app">
     <v-hero/>
     <v-profile/>
-    <v-work/>
     <v-post/>
+    <v-work/>
     <v-footer/>
   </div>
 </template>
@@ -22,14 +22,15 @@
   height: 100%;
 
   .hero {
-    margin-top: 5rem;
-    margin-bottom: 9rem;
+    margin-bottom: 6rem;
+  }
+  .work {
+    margin-top: 6rem;
   }
   .profile,
-  .work,
   .post {
-    margin-top: 9rem;
-    margin-bottom: 9rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 }
 </style>

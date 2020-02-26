@@ -1,5 +1,7 @@
 <template>
   <article class="profile">
+    <div class="profile__bg profile__bg--top"></div>
+
     <v-heading class="profile__heading">
       自己紹介
       <template #sub>
@@ -30,6 +32,8 @@
         </p>
       </div>
     </div>
+
+    <div class="profile__bg profile__bg--bottom"></div>
   </article>
 </template>
 
@@ -57,13 +61,36 @@ export default {
 
 <style lang="scss">
 .profile {
+  $bg-size: 120px;
+  position: relative;
+  background-color: #2f4459;
+  padding-top: $bg-size + 80px;
+  padding-bottom: $bg-size + 80px;
+
+  &__bg {
+    display: block;
+    position: absolute;
+    left: 0;
+    background: url(/img/profile/bg.png) center top / auto $bg-size;
+    width: 100%;
+    height: $bg-size;
+    &--top {
+      top: 0;
+    }
+    &--bottom {
+      bottom: 0;
+      transform: rotate(180deg);
+    }
+  }
 
   &__heading {
+    color: #fff;
   }
 
   &__inner {
     display: flex;
     flex-direction: row-reverse;
+    color: #fff;
     width: 640px;
     margin-left: auto;
     margin-right: auto;

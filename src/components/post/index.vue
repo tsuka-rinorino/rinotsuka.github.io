@@ -117,10 +117,16 @@ export default {
   }
 
   &__link {
+    color: #2f4459;
+    &:hover,
+    &:focus {
+      color: #2f4459;
+    }
   }
 
   &__img {
     display: block;
+    border: 1px solid #d1d3d7;
     width: 128px;
   }
 
